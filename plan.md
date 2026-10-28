@@ -62,7 +62,7 @@ Architektura łączy wygodę bezpośredniego dostępu po IP z pełnym bezpiecze�
 
 | Usługa / Projekt | Katalog | Nazwa kontenera | Port na hoście | Dostęp przez IP | Dostęp przez domenę (SSL) | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Bramka / Proxy** | `/opt/proxy` | `nginx_proxy_manager` | `80`, `443`, `127.0.0.1:81` | Tunel SSH (`localhost:8181`) | Let's Encrypt na 80/443 | Wdrażany |
+| **Bramka / Proxy** | `/opt/proxy` | `nginx_proxy_manager` | `80`, `443`, `127.0.0.1:81` | Tunel SSH (`localhost:8181`) | Let's Encrypt na 80/443 | Aktywny |
 | **Elektrotechnika** | `/opt/elektrotechnika` | `elektrotechnika-portal` | `8080:80` | `http://92.55.194.2:8080` | `https://elektro-92-55-194-2.sslip.io` | Aktywny (Hybrydowy) |
 | **Worldclock** | `/opt/worldclock` | `worldclock` | `8081:80` | `http://92.55.194.2:8081` | `https://worldclock-92-55-194-2.sslip.io` | Aktywny (Hybrydowy) |
 | **n8n Automation** | `/opt/n8n` | `n8n_app` | *Brak* | *Zablokowany (Brak portu)* | `https://n8n-92-55-194-2.sslip.io` | Zaplanowany (Tylko NPM) |
